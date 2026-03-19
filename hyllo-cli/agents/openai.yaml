@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hyllo CLI"
+  short_description: "Local audio transcription with Hyllo CLI"
+  default_prompt: "Use $hyllo-cli to transcribe this local recording into markdown text."
