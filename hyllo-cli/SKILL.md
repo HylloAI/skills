@@ -1,6 +1,6 @@
 ---
 name: hyllo-cli
-description: Transcribe local audio or video files into text with the Hyllo CLI. Use when Codex needs to do speech recognition, create transcripts, extract subtitles, convert recordings to markdown text, or process local media files with Hyllo APP running on the user's machine.
+description: Transcribe local audio or video files into text with the Hyllo CLI. Use when user needs to do speech recognition, create transcripts, extract subtitles, convert recordings to markdown text, or process local media files with Hyllo APP running on the user's machine. Trigger whenever the user wants to transcribe or extract text/subtitles from a local audio or video file.
 ---
 
 # Hyllo CLI
@@ -113,4 +113,3 @@ If the user asks to stop, interrupt the running process immediately. Expect no t
 - If `status` fails: ask the user to open Hyllo APP or log in.
 - If `models` output does not include the requested language: tell the user to install a suitable model through Hyllo APP before retrying.
 - If transcription fails: report the CLI error briefly and keep the original media file untouched.
-
